@@ -4,7 +4,7 @@ This project is a clone of AirBnB.
 Regular Installation Setup
 --------------------------
 1) Clone or Fork this directory - https://github.com/TBrockster/Ground-BnB
-2) Run $(sudo npm install)
+2) Run $(sudo npm install) in both /ground-bnb and /ground-bnb/client
 3) To run $(npm run) in both /ground-bnb and /ground-bnb/client
 4) To run tests, in client run $(npm run jas-test)
 5) Install testcafe with $(sudo npm install -g testcafe) - https://devexpress.github.io/testcafe/documentation/getting-started/
