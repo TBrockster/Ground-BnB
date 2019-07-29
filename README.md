@@ -6,12 +6,12 @@ Developer Installation Setup
 1) Install Node.JS 10.16.0 (Includes NPM 6.9.0) - https://nodejs.org/en/download/
 2) Run $(node -v), to confirm node version
 ---Following - https://dev.to/nburgess/creating-a-react-app-with-react-router-and-an-express-backend-33l3 ---
-3*) In the app directory, run $(npm init -y)
-4*) In the app directory, run $(npm add express)
-5*) In the app directory, run $(touch index.js)
-6*) Copy basic express app code into index.js
-7*) In the app directory, run $(sudo npm install -g create-react-app)
-8*) In the app directory, run $(create-react-app client)
+3) *In the app directory, run $(npm init -y)
+4) *In the app directory, run $(npm add express)
+5) *In the app directory, run $(touch index.js)
+6) *Copy basic express app code into index.js
+7) *In the app directory, run $(sudo npm install -g create-react-app)
+8) *In the app directory, run $(create-react-app client)
 
   Inside ground-bnb/client you can run several commands:
 
@@ -33,8 +33,8 @@ Developer Installation Setup
       cd client
       npm start
 
-9*) Add in the line "proxy": "http://localhost:5000" to client/package.json
-10*) In the client directory, run $(npm install react-router-dom --save)
+9) *Add in the line "proxy": "http://localhost:5000" to client/package.json
+10) *In the client directory, run $(npm install react-router-dom --save)
 11) To run, &(npm start) in both /ground-bnb and /ground-bnb/client
 
 User Stories: Headlines
@@ -48,9 +48,10 @@ As a Host
 So I can list a space
 I am able to sign up
 
-*As a Host
+***MVP***
+As a Host
 So I can list a space
-I am able to list a space*
+I am able to list a space
 
 As a Host
 So I can list all of my properties
@@ -60,7 +61,8 @@ As a Host
 So I am able to attact clients
 I am able to name my space
 
-*As a Host
+***MVP***
+As a Host
 So I am able to attact clients
 I am able to provide a description of my space*
 
