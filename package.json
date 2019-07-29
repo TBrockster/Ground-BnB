@@ -1,0 +1,25 @@
+{
+  "name": "ground-bnb",
+  "version": "1.0.0",
+  "description": "This project is a clone of AirBnB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TBrockster/Ground-BnB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TBrockster/Ground-BnB/issues"
+  },
+  "homepage": "https://github.com/TBrockster/Ground-BnB#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.8.6"
+  }
+}
