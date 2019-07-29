@@ -1,8 +1,15 @@
 # Ground-BnB
 This project is a clone of AirBnB.
 
-Developer Installation Setup
-----------------------------
+Regular Installation Setup
+--------------------------
+1) Clone or Fork this directory - https://github.com/TBrockster/Ground-BnB
+2) Run $(sudo npm install)
+3) To run $(npm run) in both /ground-bnb and /ground-bnb/client
+4) To run setup
+
+Initial Developer Installation Setup
+------------------------------------
 1) Install Node.JS 10.16.0 (Includes NPM 6.9.0) - https://nodejs.org/en/download/
 2) Run $(node -v), to confirm node version
 ---Following - https://dev.to/nburgess/creating-a-react-app-with-react-router-and-an-express-backend-33l3 ---
@@ -35,7 +42,6 @@ Developer Installation Setup
 
 9) *Add in the line "proxy": "http://localhost:5000" to client/package.json
 10) *In the client directory, run $(npm install react-router-dom --save)
-11) To run, &(npm start) in both /ground-bnb and /ground-bnb/client
 
 User Stories: Headlines
 ------------
